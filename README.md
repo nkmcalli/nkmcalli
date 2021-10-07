@@ -24,7 +24,7 @@ Testing table markdown
 |-|-|
 |`test` code style|`test` code style|
 |`test` code style|`test` code style|
-|`AbcdefghijklmnopqrstuvwxyzAbcdefghijklmnopqrstuvwxyz<br/>(AbcdefghijklmnopqrstuvwxyzAbcdef)`|`AbcdefghijklmnopqrstuvwxyzAbcdefghijklmnopqrstuvwxyz(Abcdefghijklmnopqrstuvwxy)`|
+|`AbcdefghijklmnopqrstuvwxyzAbcdefghijklmnopqrstuvwxyz(AbcdefghijklmnopqrstuvwxyzAbcdef)`|`AbcdefghijklmnopqrstuvwxyzAbcdefghijklmnopqrstuvwxyz(Abcdefghijklmnopqrstuvwxy)`|
 |`BcdefghijklmnopqrstuvwxyzAbcdefghijklmnopqrstuvwxyz(AbcdefghijklmnopqrstuvwxyzAbcdef)`|`AbcdefghijklmnopqrstuvwxyzAbcdefghijklmnopqrstuvwxyz(Abcdefghijklmnopqrstuvwxy)`|
 |`CdefghijklmnopqrstuvwxyzAbcdefghijklmnopqrstuvwxyz(AbcdefghijklmnopqrstuvwxyzAbcdef)`|`AbcdefghijklmnopqrstuvwxyzAbcdefghijklmnopqrstuvwxyz(Abcdefghijklmnopqrstuvwxy)`|
 |`DefghijklmnopqrstuvwxyzAbcdefghijklmnopqrstuvwxyz(AbcdefghijklmnopqrstuvwxyzAbcdef)`|`AbcdefghijklmnopqrstuvwxyzAbcdefghijklmnopqrstuvwxyz(Abcdefghijklmnopqrstuvwxy)`|
