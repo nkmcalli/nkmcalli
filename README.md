@@ -24,9 +24,4 @@ Testing table markdown
 |-|-|
 |`test` code style|`test` code style|
 |`test` code style|`test` code style|
-
-|Test|Test|
-|-|-|
-|`test` code style|`test` code style|
-|`test` code style|`test` code style|
 |`AbcdefghijklmnopqrstuvwxyzAbcdefghijklmnopqrstuvwxyz(AbcdefghijklmnopqrstuvwxyzAbcdef)`|`AbcdefghijklmnopqrstuvwxyzAbcdefghijklmnopqrstuvwxyz(Abcdefghijklmnopqrstuvwxy)`|
