@@ -63,7 +63,10 @@ git rebase origin/test-1 # integrate your colleague’s changes
 git rebase origin/main # bring in main changes
 git push --force-with-lease
 
-This leaves test-1 containing: all main updates, your colleague’s commits, and your own commits, in a clean linear history, without losing anyone’s work. If your team dislikes rebase, use the same sequence but with merge in place of rebase and push normally.​
+This leaves test-1 containing:
+All main updates, your colleague’s commits, and your own commits,
+in a clean linear history, without losing anyone’s work.
+If your team dislikes rebase, use the same sequence but with merge in place of rebase and push normally.​
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
