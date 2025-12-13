@@ -43,6 +43,11 @@ git push origin main
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+git fetch --all --tags        
+git checkout -b <new-branch-name> <tag-name>
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 git checkout main
 git pull
 git fetch
@@ -63,15 +68,16 @@ git rebase origin/test-1 # integrate your colleague’s changes
 git rebase origin/main # bring in main changes
 git push --force-with-lease
 
-This leaves test-1 containing:
-All main updates, your colleague’s commits, and your own commits,
-in a clean linear history, without losing anyone’s work.
-If your team dislikes rebase, use the same sequence but with merge in place of rebase and push normally.​
+This leaves test-1 containing: 
+all main updates, your colleague’s commits, and your own commits, 
+in a clean linear history, without losing anyone’s work. 
+If your team dislikes rebase, use the same sequence 
+but with merge in place of rebase and push normally.​
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-git cherry-pick --edit -x 064984c8 
-git cherry-pick --edit -x 742281173b7d44c6aa2415eb191565c6fbee711e
+git cherry-pick --edit -x fed7612b 
+git cherry-pick --edit -x 093997a469f125ddc6d0c44eb7eefe1845fdb8c7
 
 git cherry-pick --edit -x 8c2df308^..47c0d874
 git cherry-pick <start-commit-hash>^..<end-commit-hash>
@@ -106,15 +112,17 @@ b32feded  [2025-05-14]  (Nicole McAllister)  Commit message
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-git remote add devin https://github.com/drobison00/devin-nv-ingest-github.git
-git fetch devin
+git remote add kyle https://github.com/KyleZheng1284/nv-ingest-lib-mode.git
+git fetch kyle
 
-git checkout -b nkm/devin-edit-2 devin/devin_docs_add_throughput_discussion
+git checkout -b nkm/kyle-edit-1 kyle/fix/libmode-quiet-logging
 
 make changes
 commit changes
 
-git push origin nkm/devin-edit-2
+git push origin nkm/kyle-edit-1
+
+go to the colleague's fork to request the pr
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -139,4 +147,3 @@ Global: ~home/username/.gitconfig
 
 git config --global core.editor "notepad"
 git config --global -e
-```
